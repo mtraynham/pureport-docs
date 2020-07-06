@@ -9,8 +9,8 @@ Ansible
 =====================================
 
 Pureport provides full integration with Ansible for automating the building of
-mutlicloud and hybrid cloud networks.  Pureport provides a number of Ansible
-collecitons that can be used to quickly build virtual networks and establish
+multicloud and hybrid cloud networks.  Pureport provides a number of Ansible
+collections that can be used to quickly build virtual networks and establish
 connections to public cloud providers.  This document provides details on how
 to use the Ansible collections.
 
@@ -25,7 +25,7 @@ Ansible collections provide both modules for automating tasks using the
 Pureport Fabric API as well as automating full end to end connections between
 Pureport and public cloud providers.
 
-The source code for all collections are currenlty hosted at
+The source code for all collections are currently hosted at
 `here <https://github.com/ansible-collections/pureport>`_.  As collections are
 developed and completed, collections are released to Ansible Galaxy
 `here <https://galaxy.ansible.com/pureport>`_.
@@ -44,7 +44,7 @@ command.
 
 The ``pureport.fabric`` collection provides all of the Pureport modules which
 can be used to automate creating networks and collections in plays.  Once the
-collection is installed, you can create playbooks for interactin with the
+collection is installed, you can create playbooks for interacting with the
 Pureport Fabric API.
 
 Here is a very simple example a playbook that will create a new network.

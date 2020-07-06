@@ -6,15 +6,15 @@
 Multicloud Fabric
 =====================================
 
-The Purpeort Multicloud Fabric platform provides a software-as-a-service
+The Pureport Multicloud Fabric platform provides a software-as-a-service
 solution that allows customers to build and operate cloud native networks for
 connecting customer sites to public cloud providers over dedicated, high speed
 cloud on-ramps without the need to invest in expensive network overlay
-solutions or having to manage ineffecient traffic paths due to ineffecient
+solutions or having to manage inefficient traffic paths due to inefficient
 routing between clouds.
 
-This document provides an overview of the Pureport Mutlicloud Fabric service
-components and describes how those compoments work in conjunction with one
+This document provides an overview of the Pureport Multicloud Fabric service
+components and describes how those components work in conjunction with one
 another to deliver a full end-to-end cloud native network infrastructure.
 
 The Pureport Multicloud Fabric consists of the following:
@@ -71,7 +71,7 @@ Fabric Networks
 ---------------
 
 Fabric Networks represent a logical grouping of connections designed to provide
-a multicloud or hybrid cloud service.  Fabric Networks are similiar in
+a multicloud or hybrid cloud service.  Fabric Networks are similar in
 operation to public cloud providers VPCs and provide transit service between
 clouds.  Customers can create as many virtual networks as necessary to support
 multiple use cases.  Connections can be assign to one and only one Fabric
@@ -108,12 +108,12 @@ ingress / egress point between a Fabric Network and a public cloud provider.
 Site Connect
 ~~~~~~~~~~~~
 
-The Pureport Site Connect  provides network connectivty to remote offices over
+The Pureport Site Connect  provides network connectivity to remote offices over
 encrypted IPSec VPN technology.  Site Gateways terminate IPSec tunnels to
 customer sites at the edge of a Pureport Multicloud Fabric and then transport
-traffice across the customers private Fabric Network to cloud providers.
+traffic across the customers private Fabric Network to cloud providers.
 
-Site Gateways deliver connectivty over the public Internet and are commonly
+Site Gateways deliver connectivity over the public Internet and are commonly
 deployed in pairs supporting highly available connections.  See
 :ref:`Connecting over IPSec VPN <connections_ipsec_vpn>` for more details.
 
@@ -123,9 +123,9 @@ Port Connect
 For large organizations that wish to directly connect sites to their Pureport
 Fabric Network, Pureport provides a Port Gateway.  Port Gateways are designed
 to terminate direct connectivity to the Pureport Multicloud Fabric over
-dedicated fiber connectivity.  Port Gateway's are similiar in functionality to
+dedicated fiber connectivity.  Port Gateway's are similar in functionality to
 Site Gateway's however bring the added benefit of predicable high throughput,
-low latency peformance associated with private line fabic connectivity.
+low latency performance associated with private line fabric connectivity.
 
 Port Gateways can be deployed in either highly available, redundant
 connectivity or single connection to a Fabric Network.  For more details about
@@ -135,7 +135,7 @@ connecting over private line, please see :ref:`Connecting over Direct Fiber
 Fabric Services
 ---------------
 
-In addition to provide fully meshed network connectivty to public clouds and
+In addition to provide fully meshed network connectivity to public clouds and
 customer sites, Pureport also provides optional services that can be enabled to
 enhance Fabric Gateways.
 
@@ -146,7 +146,7 @@ One of the challenges when connecting multiple networks together is overlapping
 IP address space.  The easiest way to address this problem is to enable network
 address translation (NAT) at points to solve this problem.  Just about every
 cloud provider and network equipment manufacturer supports enabling NAT on
-thier respecive service and device.
+their respective service and device.
 
 Operational challenge can result though due to different implementations
 depending on the service and/or platform.  Having a single consist

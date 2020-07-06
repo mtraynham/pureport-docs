@@ -12,13 +12,13 @@ Pureport documentation side along with a brief definition of each term.
 .. glossary::
 
    Network
-        A network is the base building block within the Pureport Mutlicloud
+        A network is the base building block within the Pureport Multicloud
         Fabric and represents a virtual cloud network.  Connections are added
         to networks in order to establish connectivity between clouds and
         sites.
 
    Connection
-        A connection represents connectivty to a single cloud.  Connections are
+        A connection represents connectivity to a single cloud.  Connections are
         organized into virtual networks (:term:`Network`).  A connection will
         include one or two gateways (:term:`Gateway`).  
 

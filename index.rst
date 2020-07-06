@@ -3,7 +3,7 @@ Welcome to Pureport's documentation!
 All product documentation for Pureport can be found here.  In addition, all of
 our documentation is hosted at Github. If you find any errors, mistakes or
 omissions, please don't hesitate to email us at support@pureport.com or, if you
-are feeling a bit ambtious click on the "Edit on GitHub" link in the upper
+are feeling a bit ambitious click on the "Edit on GitHub" link in the upper
 right corner.  We also invite you to visit our `website`_ for additional
 information about the Pureport organization.
 
